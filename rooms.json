@@ -1,0 +1,308 @@
+[
+  {
+    "room_id": "Amphi 1",
+    "capacity": 200,
+    "room_type": "amphi",
+    "building": "B_amphi",
+    "floor": 1,
+    "room_number": "Amphi 1",
+    "location": 1
+  },
+  {
+    "room_id": "Amphi 2",
+    "capacity": 200,
+    "room_type": "amphi",
+    "building": "B_amphi",
+    "floor": 1,
+    "room_number": "Amphi 2",
+    "location": 2
+  },
+  {
+    "room_id": "Amphi 3",
+    "capacity": 200,
+    "room_type": "amphi",
+    "building": "B_amphi",
+    "floor": 1,
+    "room_number": "Amphi 3",
+    "location": 3
+  },
+  {
+    "room_id": "Amphi 4",
+    "capacity": 200,
+    "room_type": "amphi",
+    "building": "B_amphi",
+    "floor": 1,
+    "room_number": "Amphi 4",
+    "location": 4
+  },
+  {
+    "room_id": "Amphi 5",
+    "capacity": 200,
+    "room_type": "amphi",
+    "building": "B_amphi",
+    "floor": 2,
+    "room_number": "Amphi 5",
+    "location": 5
+  },
+  {
+    "room_id": "Amphi 6",
+    "capacity": 200,
+    "room_type": "amphi",
+    "building": "B_amphi",
+    "floor": 2,
+    "room_number": "Amphi 6",
+    "location": 6
+  },
+  {
+    "room_id": "Amphi 7",
+    "capacity": 200,
+    "room_type": "amphi",
+    "building": "B_amphi",
+    "floor": 2,
+    "room_number": "Amphi 7",
+    "location": 7
+  },
+  {
+    "room_id": "Amphi 8",
+    "capacity": 200,
+    "room_type": "amphi",
+    "building": "B_amphi",
+    "floor": 2,
+    "room_number": "Amphi 8",
+    "location": 8
+  },
+  {
+    "room_id": "Circuit Lab 2",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 0,
+    "room_number": "Circuit Lab 2",
+    "location": 2
+  },
+  {
+    "room_id": "Eng. Lab 1",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 0,
+    "room_number": "Eng. Lab 1",
+    "location": 1
+  },
+  {
+    "room_id": "Eng. Lab 2",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 0,
+    "room_number": "Eng. Lab 2",
+    "location": 2
+  },
+  {
+    "room_id": "Lab1",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 1,
+    "room_number": "Lab1",
+    "location": 1
+  },
+  {
+    "room_id": "Lab10",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 2,
+    "room_number": "Lab10",
+    "location": 10
+  },
+  {
+    "room_id": "Lab11",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 2,
+    "room_number": "Lab11",
+    "location": 11
+  },
+  {
+    "room_id": "Lab12",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 2,
+    "room_number": "Lab12",
+    "location": 12
+  },
+  {
+    "room_id": "Lab2",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 1,
+    "room_number": "Lab2",
+    "location": 2
+  },
+  {
+    "room_id": "Lab3",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 1,
+    "room_number": "Lab3",
+    "location": 3
+  },
+  {
+    "room_id": "Lab4",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 1,
+    "room_number": "Lab4",
+    "location": 4
+  },
+  {
+    "room_id": "Lab5",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 1,
+    "room_number": "Lab5",
+    "location": 5
+  },
+  {
+    "room_id": "Lab6",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 1,
+    "room_number": "Lab6",
+    "location": 6
+  },
+  {
+    "room_id": "Lab7",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 1,
+    "room_number": "Lab7",
+    "location": 7
+  },
+  {
+    "room_id": "Lab8",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 1,
+    "room_number": "Lab8",
+    "location": 8
+  },
+  {
+    "room_id": "Lab9",
+    "capacity": 30,
+    "room_type": "lab",
+    "building": "B_lab",
+    "floor": 2,
+    "room_number": "Lab9",
+    "location": 9
+  },
+  {
+    "room_id": "Tuto 1",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 1",
+    "location": 1
+  },
+  {
+    "room_id": "Tuto 19",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 19",
+    "location": 19
+  },
+  {
+    "room_id": "Tuto 2",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 2",
+    "location": 2
+  },
+  {
+    "room_id": "Tuto 20",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 20",
+    "location": 20
+  },
+  {
+    "room_id": "Tuto 21",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 21",
+    "location": 21
+  },
+  {
+    "room_id": "Tuto 22",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 22",
+    "location": 22
+  },
+  {
+    "room_id": "Tuto 23",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 23",
+    "location": 23
+  },
+  {
+    "room_id": "Tuto 24",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 24",
+    "location": 24
+  },
+  {
+    "room_id": "Tuto 4",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 4",
+    "location": 4
+  },
+  {
+    "room_id": "Tuto 5",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 5",
+    "location": 5
+  },
+  {
+    "room_id": "Tuto 6",
+    "capacity": 28,
+    "room_type": "tuto",
+    "building": "B_tuto",
+    "floor": 0,
+    "room_number": "Tuto 6",
+    "location": 6
+  }
+]

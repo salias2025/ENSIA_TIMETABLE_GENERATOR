@@ -1,0 +1,207 @@
+[
+  {
+    "group_id": "Y1G1",
+    "section_id": "Y1S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y1G2",
+    "section_id": "Y1S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y1G3",
+    "section_id": "Y1S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y1G4",
+    "section_id": "Y1S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y1G5",
+    "section_id": "Y1S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y1G6",
+    "section_id": "Y1S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y1G7",
+    "section_id": "Y1S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y1G8",
+    "section_id": "Y1S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y1G9",
+    "section_id": "Y1S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G1",
+    "section_id": "Y2S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G10",
+    "section_id": "Y2S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G11",
+    "section_id": "Y2S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G12",
+    "section_id": "Y2S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G2",
+    "section_id": "Y2S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G3",
+    "section_id": "Y2S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G4",
+    "section_id": "Y2S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G5",
+    "section_id": "Y2S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G6",
+    "section_id": "Y2S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G7",
+    "section_id": "Y2S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G8",
+    "section_id": "Y2S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y2G9",
+    "section_id": "Y2S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G1",
+    "section_id": "Y3S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G10",
+    "section_id": "Y3S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G11",
+    "section_id": "Y3S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G12",
+    "section_id": "Y3S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G2",
+    "section_id": "Y3S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G3",
+    "section_id": "Y3S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G4",
+    "section_id": "Y3S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G5",
+    "section_id": "Y3S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G6",
+    "section_id": "Y3S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G7",
+    "section_id": "Y3S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G8",
+    "section_id": "Y3S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y3G9",
+    "section_id": "Y3S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y4G1",
+    "section_id": "Y4S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y4G2",
+    "section_id": "Y4S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y4G3",
+    "section_id": "Y4S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y4G4",
+    "section_id": "Y4S1",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y4G5",
+    "section_id": "Y4S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y4G6",
+    "section_id": "Y4S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y4G7",
+    "section_id": "Y4S2",
+    "n_students": 28
+  },
+  {
+    "group_id": "Y4G8",
+    "section_id": "Y4S2",
+    "n_students": 28
+  }
+]

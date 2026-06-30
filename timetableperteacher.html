@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable by Teacher | CSP vs SA vs Hill Climbing</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: system-ui, 'Segoe UI', 'Inter', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            margin: 0;
+            padding: 24px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 1.8rem;
+            color: #78350f;
+        }
+        .subtitle {
+            color: #92400e;
+            margin-bottom: 24px;
+            border-left: 4px solid #f59e0b;
+            padding-left: 16px;
+        }
+        .controls {
+            background: white;
+            border-radius: 20px;
+            padding: 20px 28px;
+            margin-bottom: 28px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            align-items: flex-end;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .control-group label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #92400e;
+        }
+        select, button {
+            padding: 10px 16px;
+            font-size: 0.9rem;
+            border-radius: 12px;
+            border: 1px solid #fed7aa;
+            background: white;
+            cursor: pointer;
+        }
+        select {
+            min-width: 250px;
+        }
+        button {
+            background: #f59e0b;
+            color: white;
+            border: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        button:hover {
+            background: #d97706;
+        }
+        .algorithm-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .tab-btn {
+            background: #fffbeb;
+            color: #92400e;
+            border: 1px solid #fed7aa;
+            padding: 10px 24px;
+            border-radius: 40px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .tab-btn.active {
+            background: #f59e0b;
+            color: white;
+            border-color: #f59e0b;
+        }
+        .algorithm-panel {
+            display: none;
+        }
+        .algorithm-panel.active {
+            display: block;
+        }
+        .timetable-wrapper {
+            overflow-x: auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            padding: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+            min-width: 700px;
+        }
+        th {
+            background: #fffbeb;
+            padding: 12px 8px;
+            border: 1px solid #fde68a;
+            font-weight: 600;
+        }
+        td {
+            border: 1px solid #fde68a;
+            padding: 8px 6px;
+            vertical-align: top;
+        }
+        .time-col {
+            background: #fef3c7;
+            font-weight: 600;
+            text-align: center;
+            width: 60px;
+        }
+        .session-cell {
+            font-size: 0.7rem;
+            line-height: 1.4;
+        }
+        .session-module {
+            font-weight: 700;
+            color: #b45309;
+        }
+        .session-type {
+            display: inline-block;
+            font-size: 0.6rem;
+            padding: 2px 6px;
+            border-radius: 12px;
+            background: #fef3c7;
+            margin-top: 4px;
+        }
+        .session-group {
+            color: #059669;
+            font-size: 0.65rem;
+        }
+        .empty-cell {
+            color: #d4a373;
+            text-align: center;
+            font-size: 0.7rem;
+        }
+        .footer {
+            margin-top: 24px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #92400e;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>👨‍🏫 Timetable by Teacher</h1>
+    <div class="subtitle">Weekly schedule for each teacher across all algorithms</div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Select Teacher</label>
+            <select id="teacherSelect">
+                <option value="">-- Loading teachers --</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label>&nbsp;</label>
+            <button id="showBtn">📋 Show Timetable</button>
+        </div>
+    </div>
+
+    <div class="algorithm-tabs">
+        <button class="tab-btn active" data-algo="csp">🎯 CSP</button>
+        <button class="tab-btn" data-algo="sa">🔥 SA</button>
+        <button class="tab-btn" data-algo="hc">⛰️ Hill Climbing</button>
+    </div>
+
+    <div id="cspPanel" class="algorithm-panel active"><div class="timetable-wrapper" id="cspTable"></div></div>
+    <div id="saPanel" class="algorithm-panel"><div class="timetable-wrapper" id="saTable"></div></div>
+    <div id="hcPanel" class="algorithm-panel"><div class="timetable-wrapper" id="hcTable"></div></div>
+    <div class="footer">📌 Empty cells = no session | Days: Sun (0) → Thu (4) | Periods: 0-5</div>
+</div>
+
+<script>
+    let cspData = [], saData = [], hcData = [];
+    let allTeachers = new Set();
+    let teachersList = [];
+
+    async function loadData() {
+        try {
+            const [cspResp, saResp, hcResp] = await Promise.all([
+                fetch('schedule_output.json'),
+                fetch('schedule_sa_output.json'),
+                fetch('hc_schedule_output.json')
+            ]);
+            cspData = await cspResp.json();
+            saData = await saResp.json();
+            hcData = await hcResp.json();
+            
+            const extractTeachers = (data) => {
+                data.forEach(s => { if (s.teacher) allTeachers.add(s.teacher); });
+            };
+            extractTeachers(cspData);
+            extractTeachers(saData);
+            extractTeachers(hcData);
+            
+            teachersList = Array.from(allTeachers).sort();
+            const select = document.getElementById('teacherSelect');
+            select.innerHTML = '<option value="">-- Select a teacher --</option>';
+            teachersList.forEach(t => {
+                const option = document.createElement('option');
+                option.value = t;
+                option.textContent = t.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                select.appendChild(option);
+            });
+            console.log(`Loaded ${teachersList.length} teachers`);
+        } catch (err) {
+            console.error(err);
+            document.querySelector('.controls').innerHTML += '<div style="color:red;">❌ Error loading JSON files</div>';
+        }
+    }
+
+    function buildTimetableForTeacher(data, teacherId) {
+        const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'];
+        const periods = 6;
+        const grid = Array(5).fill().map(() => Array(6).fill(null));
+        
+        const teacherSessions = data.filter(s => s.teacher === teacherId);
+        teacherSessions.forEach(s => {
+            if (s.day >= 0 && s.day < 5 && s.period >= 0 && s.period < 6) {
+                grid[s.day][s.period] = s;
+            }
+        });
+        
+        let html = '<table><thead><tr><th>Time</th>';
+        for (let p = 0; p < periods; p++) html += `<th>Period ${p}</th>`;
+        html += '</tr></thead><tbody>';
+        
+        for (let d = 0; d < 5; d++) {
+            html += `<tr><td class="time-col"><strong>${days[d]}</strong></td>`;
+            for (let p = 0; p < periods; p++) {
+                const s = grid[d][p];
+                if (s) {
+                    html += `<td class="session-cell">
+                        <div class="session-module">${s.module || s.module_name || 'N/A'}</div>
+                        <div><span class="session-type">${s.type}</span></div>
+                        <div class="session-group">👥 ${s.group || s.section || 'Section-wide'}</div>
+                        <div style="font-size:0.6rem;">🏠 ${s.room}</div>
+                    </td>`;
+                } else {
+                    html += `<td class="empty-cell">—</td>`;
+                }
+            }
+            html += '</tr>';
+        }
+        html += '</tbody></table>';
+        return html;
+    }
+
+    let currentTeacher = null;
+    function showAllTimetables() {
+        const teacher = document.getElementById('teacherSelect').value;
+        if (!teacher) { alert('Select a teacher'); return; }
+        currentTeacher = teacher;
+        document.getElementById('cspTable').innerHTML = buildTimetableForTeacher(cspData, teacher);
+        document.getElementById('saTable').innerHTML = buildTimetableForTeacher(saData, teacher);
+        document.getElementById('hcTable').innerHTML = buildTimetableForTeacher(hcData, teacher);
+    }
+
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const algo = btn.dataset.algo;
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            document.querySelectorAll('.algorithm-panel').forEach(p => p.classList.remove('active'));
+            if (algo === 'csp') document.getElementById('cspPanel').classList.add('active');
+            else if (algo === 'sa') document.getElementById('saPanel').classList.add('active');
+            else if (algo === 'hc') document.getElementById('hcPanel').classList.add('active');
+        });
+    });
+    
+    document.getElementById('showBtn').addEventListener('click', showAllTimetables);
+    loadData();
+</script>
+</body>
+</html>

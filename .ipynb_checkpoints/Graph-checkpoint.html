@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Comparison | CSP vs SA vs Hill Climbing</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: system-ui, 'Segoe UI', 'Inter', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+            margin: 0;
+            padding: 24px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 1.8rem;
+            color: #1e3a8a;
+        }
+        .subtitle {
+            color: #1e40af;
+            margin-bottom: 32px;
+            border-left: 4px solid #3b82f6;
+            padding-left: 16px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 32px;
+        }
+        .stat-card {
+            background: white;
+            border-radius: 24px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+        .stat-card:hover { transform: translateY(-4px); }
+        .stat-card h3 {
+            margin: 0 0 12px 0;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        .stat-label {
+            color: #64748b;
+            font-size: 0.75rem;
+            margin-top: 4px;
+        }
+        .chart-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+        .chart-card {
+            background: white;
+            border-radius: 24px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .chart-card h3 {
+            margin: 0 0 16px 0;
+            font-size: 1.1rem;
+        }
+        canvas { max-height: 300px; width: 100%; }
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        .badge.csp { background: #dbeafe; color: #1e40af; }
+        .badge.sa { background: #fed7aa; color: #92400e; }
+        .badge.hc { background: #d1fae5; color: #065f46; }
+        .footer {
+            text-align: center;
+            margin-top: 32px;
+            font-size: 0.75rem;
+            color: #4b5563;
+        }
+        .metrics-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+        }
+        .metrics-table th, .metrics-table td {
+            padding: 10px 8px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .metrics-table th {
+            font-weight: 600;
+            color: #475569;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📊 Algorithm Comparison</h1>
+    <div class="subtitle">CSP (Constraint Satisfaction) vs SA (Simulated Annealing) vs Hill Climbing</div>
+
+    <div class="stats-grid" id="statsGrid"></div>
+
+    <div class="chart-row">
+        <div class="chart-card">
+            <h3>📈 Session Distribution by Type</h3>
+            <canvas id="typeChart"></canvas>
+        </div>
+        <div class="chart-card">
+            <h3>🏢 Room Utilization</h3>
+            <canvas id="roomUtilChart"></canvas>
+        </div>
+    </div>
+
+    <div class="chart-row">
+        <div class="chart-card">
+            <h3>👥 Sessions by Audience (Top 10)</h3>
+            <canvas id="audienceChart"></canvas>
+        </div>
+        <div class="chart-card">
+            <h3>📋 Summary Metrics</h3>
+            <table class="metrics-table" id="metricsTable">
+                <tr><th>Metric</th><th>CSP</th><th>SA</th><th>HC</th></tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">📌 Comparison based on schedule_output.json, schedule_sa_output.json, and hc_schedule_output.json</div>
+</div>
+
+<script>
+    let cspData = [], saData = [], hcData = [];
+
+    async function loadData() {
+        const [csp, sa, hc] = await Promise.all([
+            fetch('schedule_output.json').then(r => r.json()),
+            fetch('schedule_sa_output.json').then(r => r.json()),
+            fetch('hc_schedule_output.json').then(r => r.json())
+        ]);
+        cspData = csp; saData = sa; hcData = hc;
+        renderAll();
+    }
+
+    function countByType(data) {
+        const counts = { lecture: 0, lab: 0, tuto: 0 };
+        data.forEach(s => {
+            const t = s.type?.toLowerCase() || '';
+            if (t.includes('lecture')) counts.lecture++;
+            else if (t.includes('lab')) counts.lab++;
+            else if (t.includes('tuto')) counts.tuto++;
+        });
+        return counts;
+    }
+
+    function countUniqueRooms(data) {
+        const rooms = new Set(data.map(s => s.room));
+        return rooms.size;
+    }
+
+    function countSessions(data) { return data.length; }
+
+    function countUniqueTeachers(data) {
+        return new Set(data.map(s => s.teacher)).size;
+    }
+
+    function countUniqueGroups(data) {
+        return new Set(data.filter(s => s.group).map(s => s.group)).size;
+    }
+
+    function topAudiences(data, n=10) {
+        const counts = new Map();
+        data.forEach(s => {
+            const aud = s.group || s.section || 'unknown';
+            counts.set(aud, (counts.get(aud) || 0) + 1);
+        });
+        return Array.from(counts.entries()).sort((a,b) => b[1]-a[1]).slice(0,n);
+    }
+
+    function renderAll() {
+        const cspCounts = countByType(cspData);
+        const saCounts = countByType(saData);
+        const hcCounts = countByType(hcData);
+        
+        // Stats cards
+        const statsHtml = `
+            <div class="stat-card"><h3><span class="badge csp">CSP</span></h3><div class="stat-value">${cspData.length}</div><div class="stat-label">Total Sessions</div><div class="stat-value" style="font-size:1rem;">🏢 ${countUniqueRooms(cspData)} rooms</div><div class="stat-value" style="font-size:1rem;">👨‍🏫 ${countUniqueTeachers(cspData)} teachers</div></div>
+            <div class="stat-card"><h3><span class="badge sa">SA</span></h3><div class="stat-value">${saData.length}</div><div class="stat-label">Total Sessions</div><div class="stat-value" style="font-size:1rem;">🏢 ${countUniqueRooms(saData)} rooms</div><div class="stat-value" style="font-size:1rem;">👨‍🏫 ${countUniqueTeachers(saData)} teachers</div></div>
+            <div class="stat-card"><h3><span class="badge hc">Hill Climbing</span></h3><div class="stat-value">${hcData.length}</div><div class="stat-label">Total Sessions</div><div class="stat-value" style="font-size:1rem;">🏢 ${countUniqueRooms(hcData)} rooms</div><div class="stat-value" style="font-size:1rem;">👨‍🏫 ${countUniqueTeachers(hcData)} teachers</div></div>
+        `;
+        document.getElementById('statsGrid').innerHTML = statsHtml;
+        
+        // Metrics table
+        document.getElementById('metricsTable').innerHTML = `
+            <tr><th>Metric</th><th>CSP</th><th>SA</th><th>HC</th></tr>
+            <tr><td>Total Sessions</td><td>${cspData.length}</td><td>${saData.length}</td><td>${hcData.length}</td></tr>
+            <tr><td>Unique Rooms</td><td>${countUniqueRooms(cspData)}</td><td>${countUniqueRooms(saData)}</td><td>${countUniqueRooms(hcData)}</td></tr>
+            <tr><td>Unique Teachers</td><td>${countUniqueTeachers(cspData)}</td><td>${countUniqueTeachers(saData)}</td><td>${countUniqueTeachers(hcData)}</td></tr>
+            <tr><td>Unique Groups</td><td>${countUniqueGroups(cspData)}</td><td>${countUniqueGroups(saData)}</td><td>${countUniqueGroups(hcData)}</td></tr>
+            <tr><td>Lectures</td><td>${cspCounts.lecture}</td><td>${saCounts.lecture}</td><td>${hcCounts.lecture}</td></tr>
+            <tr><td>Labs</td><td>${cspCounts.lab}</td><td>${saCounts.lab}</td><td>${hcCounts.lab}</td></tr>
+            <tr><td>Tutorials</td><td>${cspCounts.tuto}</td><td>${saCounts.tuto}</td><td>${hcCounts.tuto}</td></tr>
+        `;
+        
+        // Type chart
+        new Chart(document.getElementById('typeChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Lectures', 'Labs', 'Tutorials'],
+                datasets: [
+                    { label: 'CSP', data: [cspCounts.lecture, cspCounts.lab, cspCounts.tuto], backgroundColor: '#3b82f6' },
+                    { label: 'SA', data: [saCounts.lecture, saCounts.lab, saCounts.tuto], backgroundColor: '#f59e0b' },
+                    { label: 'Hill Climbing', data: [hcCounts.lecture, hcCounts.lab, hcCounts.tuto], backgroundColor: '#10b981' }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: true }
+        });
+        
+        // Room utilization (rooms used / total available concept)
+        const allRooms = new Set([...cspData.map(s=>s.room), ...saData.map(s=>s.room), ...hcData.map(s=>s.room)]);
+        new Chart(document.getElementById('roomUtilChart'), {
+            type: 'radar',
+            data: {
+                labels: ['Room Count', 'Teacher Count', 'Group Count'],
+                datasets: [
+                    { label: 'CSP', data: [countUniqueRooms(cspData), countUniqueTeachers(cspData), countUniqueGroups(cspData)], borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.2)' },
+                    { label: 'SA', data: [countUniqueRooms(saData), countUniqueTeachers(saData), countUniqueGroups(saData)], borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.2)' },
+                    { label: 'HC', data: [countUniqueRooms(hcData), countUniqueTeachers(hcData), countUniqueGroups(hcData)], borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.2)' }
+                ]
+            },
+            options: { responsive: true }
+        });
+        
+        // Top audiences
+        const topAud = topAudiences(hcData, 10);
+        new Chart(document.getElementById('audienceChart'), {
+            type: 'bar',
+            data: {
+                labels: topAud.map(a => a[0]),
+                datasets: [
+                    { label: 'CSP', data: topAud.map(a => cspData.filter(s => (s.group||s.section) === a[0]).length), backgroundColor: '#3b82f6' },
+                    { label: 'SA', data: topAud.map(a => saData.filter(s => (s.group||s.section) === a[0]).length), backgroundColor: '#f59e0b' },
+                    { label: 'HC', data: topAud.map(a => a[1]), backgroundColor: '#10b981' }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: true, plugins: { legend: { position: 'top' } } }
+        });
+    }
+    
+    loadData();
+</script>
+</body>
+</html>

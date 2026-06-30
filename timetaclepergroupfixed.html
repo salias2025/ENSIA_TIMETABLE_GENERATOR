@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable by Group | Full Schedule (Lectures + Labs + Tutorials)</title>
+    <style>
+        * { box-sizing: border-box; font-family: system-ui, 'Segoe UI', sans-serif; }
+        body { background: linear-gradient(135deg, #f5f7fa 0%, #e9edf2 100%); margin: 0; padding: 24px; min-height: 100vh; }
+        .container { max-width: 1600px; margin: 0 auto; }
+        h1 { margin: 0 0 8px 0; font-size: 1.8rem; color: #1a2a3a; }
+        .subtitle { color: #5a6e7c; margin-bottom: 24px; border-left: 4px solid #3b82f6; padding-left: 16px; }
+        .controls { background: white; border-radius: 20px; padding: 20px 28px; margin-bottom: 28px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; }
+        .control-group { display: flex; flex-direction: column; gap: 6px; }
+        .control-group label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #5a6e7c; }
+        select, button { padding: 10px 16px; font-size: 0.9rem; border-radius: 12px; border: 1px solid #cbd5e1; background: white; cursor: pointer; }
+        select { min-width: 220px; }
+        button { background: #3b82f6; color: white; border: none; font-weight: 600; transition: all 0.2s; }
+        button:hover { background: #2563eb; transform: scale(1.02); }
+        .algorithm-tabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+        .tab-btn { background: #f1f5f9; color: #334155; border: none; padding: 10px 24px; border-radius: 40px; font-weight: 600; cursor: pointer; }
+        .tab-btn.active { background: #3b82f6; color: white; box-shadow: 0 2px 8px rgba(59,130,246,0.3); }
+        .algorithm-panel { display: none; }
+        .algorithm-panel.active { display: block; }
+        .timetable-wrapper { overflow-x: auto; background: white; border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); padding: 4px; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.75rem; min-width: 700px; }
+        th { background: #f8fafc; padding: 10px 6px; border: 1px solid #e2e8f0; font-weight: 600; }
+        td { border: 1px solid #e2e8f0; padding: 6px 4px; vertical-align: top; }
+        .time-col { background: #f1f5f9; font-weight: 600; text-align: center; width: 60px; }
+        .session-cell { font-size: 0.65rem; line-height: 1.3; }
+        .session-module { font-weight: 700; color: #1e40af; }
+        .session-type { display: inline-block; font-size: 0.55rem; padding: 2px 5px; border-radius: 10px; margin-top: 3px; }
+        .session-lecture { background: #dbeafe; color: #1e40af; }
+        .session-lab { background: #fef3c7; color: #92400e; }
+        .session-tuto { background: #d1fae5; color: #065f46; }
+        .session-room { color: #059669; font-size: 0.6rem; }
+        .empty-cell { color: #94a3b8; text-align: center; font-size: 0.65rem; }
+        .footer { margin-top: 24px; text-align: center; font-size: 0.7rem; color: #64748b; }
+        .legend { display: flex; gap: 16px; margin-bottom: 16px; justify-content: center; flex-wrap: wrap; }
+        .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.7rem; }
+        .legend-color { width: 16px; height: 16px; border-radius: 4px; }
+        .legend-color.lecture { background: #dbeafe; }
+        .legend-color.lab { background: #fef3c7; }
+        .legend-color.tuto { background: #d1fae5; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📅 Timetable by Group</h1>
+    <div class="subtitle">Shows ALL sessions for the selected group: group-specific labs/tutos + section-wide lectures</div>
+
+    <div class="legend">
+        <div class="legend-item"><div class="legend-color lecture"></div><span>📖 Lecture (section-wide)</span></div>
+        <div class="legend-item"><div class="legend-color lab"></div><span>🔬 Lab</span></div>
+        <div class="legend-item"><div class="legend-color tuto"></div><span>📝 Tutorial</span></div>
+    </div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Select Group</label>
+            <select id="groupSelect">
+                <option value="">-- Loading groups --</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label>&nbsp;</label>
+            <button id="showBtn">📋 Show Timetable</button>
+        </div>
+    </div>
+
+    <div class="algorithm-tabs">
+        <button class="tab-btn active" data-algo="csp">🎯 CSP</button>
+        <button class="tab-btn" data-algo="sa">🔥 SA</button>
+        <button class="tab-btn" data-algo="hc">⛰️ Hill Climbing</button>
+    </div>
+
+    <div id="cspPanel" class="algorithm-panel active"><div class="timetable-wrapper" id="cspTable"></div></div>
+    <div id="saPanel" class="algorithm-panel"><div class="timetable-wrapper" id="saTable"></div></div>
+    <div id="hcPanel" class="algorithm-panel"><div class="timetable-wrapper" id="hcTable"></div></div>
+    <div class="footer">📌 A student in a group attends BOTH their group's labs/tutos AND their section's lectures | Days: Sun→Thu | Periods: 0-5</div>
+</div>
+
+<script>
+    let cspData = [], saData = [], hcData = [];
+    let allGroups = new Set();
+    let groupsList = [];
+    let groupToSection = new Map();
+
+    async function loadData() {
+        try {
+            const [cspResp, saResp, hcResp] = await Promise.all([
+                fetch('schedule_output.json'),
+                fetch('schedule_sa_output.json'),
+                fetch('hc_schedule_output.json')
+            ]);
+            cspData = await cspResp.json();
+            saData = await saResp.json();
+            hcData = await hcResp.json();
+
+            // Build group -> section mapping from ALL data
+            const allData = [...cspData, ...saData, ...hcData];
+            allData.forEach(s => {
+                if (s.group && s.group !== null && s.section) {
+                    groupToSection.set(s.group, s.section);
+                    allGroups.add(s.group);
+                }
+            });
+
+            groupsList = Array.from(allGroups).sort();
+            const select = document.getElementById('groupSelect');
+            select.innerHTML = '<option value="">-- Select a group --</option>';
+            groupsList.forEach(g => {
+                const section = groupToSection.get(g) || '?';
+                select.innerHTML += `<option value="${g}">${g} (${section})</option>`;
+            });
+
+            console.log(`Loaded ${groupsList.length} groups`);
+            console.log('Group→Section:', Object.fromEntries(groupToSection));
+        } catch (err) {
+            console.error(err);
+            document.querySelector('.controls').innerHTML += '<div style="color:red;">❌ Error loading JSON. Use local server: python -m http.server 8000</div>';
+        }
+    }
+
+    function buildTimetableForGroup(data, groupId) {
+        const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'];
+        const periods = 6;
+        const grid = Array(5).fill().map(() => Array(6).fill(null));
+        const sectionId = groupToSection.get(groupId);
+
+        if (!sectionId) {
+            return `<div style="padding:40px;text-align:center;">⚠️ No section found for group ${groupId}</div>`;
+        }
+
+        // Include: group-specific sessions + section-wide lectures
+        const relevantSessions = data.filter(s => {
+            const isGroupSession = (s.group === groupId);
+            const isSectionLecture = (s.group === null && s.section === sectionId);
+            return isGroupSession || isSectionLecture;
+        });
+
+        relevantSessions.forEach(s => {
+            const d = s.day, p = s.period;
+            if (d >= 0 && d < 5 && p >= 0 && p < 6 && !grid[d][p]) {
+                grid[d][p] = s;
+            }
+        });
+
+        let html = '<table><thead><tr><th>Time</th>';
+        for (let p = 0; p < periods; p++) html += `<th>P${p}<br><span style="font-size:0.6rem;">${p*60}:00</span></th>`;
+        html += '</tr></thead><tbody>';
+
+        for (let d = 0; d < 5; d++) {
+            html += `<tr><td class="time-col"><strong>${days[d]}</strong></td>`;
+            for (let p = 0; p < periods; p++) {
+                const s = grid[d][p];
+                if (s) {
+                    let typeClass = s.type === 'lecture' ? 'session-lecture' : (s.type === 'lab' ? 'session-lab' : 'session-tuto');
+                    html += `<td class="session-cell">
+                        <div class="session-module">${s.module || s.module_name || 'N/A'}</div>
+                        <div><span class="session-type ${typeClass}">${s.type}</span></div>
+                        <div class="session-room">🏠 ${s.room}</div>
+                        <div style="font-size:0.55rem;">👨‍🏫 ${s.teacher}</div>
+                        <div style="font-size:0.55rem; color:#7c3aed;">${s.group ? `👥 ${s.group}` : `📖 ${s.section} Lecture`}</div>
+                    </td>`;
+                } else {
+                    html += `<td class="empty-cell">—</td>`;
+                }
+            }
+            html += '</tr>';
+        }
+        html += '</tbody></table>';
+        return html;
+    }
+
+    function showAllTimetables() {
+        const group = document.getElementById('groupSelect').value;
+        if (!group) { alert('Select a group'); return; }
+        document.getElementById('cspTable').innerHTML = buildTimetableForGroup(cspData, group);
+        document.getElementById('saTable').innerHTML = buildTimetableForGroup(saData, group);
+        document.getElementById('hcTable').innerHTML = buildTimetableForGroup(hcData, group);
+    }
+
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            document.querySelectorAll('.algorithm-panel').forEach(p => p.classList.remove('active'));
+            document.getElementById(`${btn.dataset.algo}Panel`).classList.add('active');
+        });
+    });
+
+    document.getElementById('showBtn').addEventListener('click', showAllTimetables);
+    loadData();
+</script>
+</body>
+</html>

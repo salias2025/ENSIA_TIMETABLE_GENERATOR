@@ -1,0 +1,42 @@
+[
+  {
+    "section_id": "Y1S1",
+    "cohort_id": "Y1",
+    "n_students": 112
+  },
+  {
+    "section_id": "Y1S2",
+    "cohort_id": "Y1",
+    "n_students": 140
+  },
+  {
+    "section_id": "Y2S1",
+    "cohort_id": "Y2",
+    "n_students": 168
+  },
+  {
+    "section_id": "Y2S2",
+    "cohort_id": "Y2",
+    "n_students": 168
+  },
+  {
+    "section_id": "Y3S1",
+    "cohort_id": "Y3",
+    "n_students": 168
+  },
+  {
+    "section_id": "Y3S2",
+    "cohort_id": "Y3",
+    "n_students": 168
+  },
+  {
+    "section_id": "Y4S1",
+    "cohort_id": "Y4",
+    "n_students": 112
+  },
+  {
+    "section_id": "Y4S2",
+    "cohort_id": "Y4",
+    "n_students": 112
+  }
+]

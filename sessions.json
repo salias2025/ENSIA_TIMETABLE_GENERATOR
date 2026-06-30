@@ -1,0 +1,6887 @@
+[
+  {
+    "session_id": "s0000_linear_algebra_lecture_d0p0",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "ahmed_cherchem",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0001_introduction_to_linux_lecture_d0p0",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "sid_ahmed_berrani",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0002_introduction_to_linux_lecture_d0p1",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "sid_ahmed_berrani",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0003_linear_algebra_lecture_d0p1",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "leila_benferhat",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0004_linear_algebra_tuto_d0p2",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "ahmed_cherchem",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0005_linear_algebra_tuto_d0p2",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "leila_benferhat",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0006_linear_algebra_tuto_d0p2",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "zahra_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0007_linear_algebra_tuto_d0p3",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "leila_benferhat",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0008_mathematical_analysis_1_tuto_d0p3",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0009_linear_algebra_tuto_d0p3",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "zahra_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0010_history_of_algeria_2_lecture_d0p4",
+    "module_id": "history_of_algeria_2",
+    "module_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062c\u0632\u0627\u0626\u0631 2",
+    "teacher_id": "allal_bitour",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 1
+  },
+  {
+    "session_id": "s0011_mathematical_analysis_1_tuto_d0p4",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0012_linear_algebra_tuto_d0p4",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "zahra_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0013_mathematical_analysis_1_tuto_d0p5",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "abdelbadie_younes",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0014_mathematical_analysis_1_tuto_d0p5",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0015_history_of_algeria_2_lecture_d0p5",
+    "module_id": "history_of_algeria_2",
+    "module_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062c\u0632\u0627\u0626\u0631 2",
+    "teacher_id": "allal_bitour",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": null,
+    "min_working_days": 1
+  },
+  {
+    "session_id": "s0016_introduction_to_statistics_lecture_d1p0",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "nawel_remita",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0017_object_oriented_programming_tuto_d1p0",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "soumeya_demil",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0018_english_2writingreading_tuto_d1p0",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "wahid_chami",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0019_object_oriented_programming_lab_d1p0",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "sami_belkacem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0020_english_2_speakinglistening_tuto_d1p0",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0021_english_2_speakinglistening_tuto_d1p1",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0022_object_oriented_programming_tuto_d1p1",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "soumeya_demil",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0023_object_oriented_programming_lab_d1p1",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "sami_belkacem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0024_english_2writingreading_tuto_d1p1",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "wahid_chami",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0025_introduction_to_statistics_lecture_d1p1",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "nawel_remita",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0026_mathematical_analysis_1_tuto_d1p2",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "abdelbadie_younes",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0027_introduction_to_statistics_tuto_d1p2",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "nawel_remita",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0028_object_oriented_programming_lab_d1p2",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "sami_belkacem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0029_english_2_speakinglistening_tuto_d1p2",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0030_mathematical_analysis_1_tuto_d1p2",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "zahra_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0031_linear_algebra_tuto_d1p3",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "ahmed_cherchem",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0032_linear_algebra_tuto_d1p3",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "zahra_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0033_object_oriented_programming_tuto_d1p3",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "soumeya_demil",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0034_mathematical_analysis_1_tuto_d1p3",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "abdelbadie_younes",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0035_linear_algebra_tuto_d1p4",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "ahmed_cherchem",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0036_object_oriented_programming_lab_d1p4",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0037_linear_algebra_tuto_d1p4",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "zahra_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0038_object_oriented_programming_tuto_d1p4",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "soumeya_demil",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0039_mathematical_analysis_1_tuto_d1p4",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0040_mathematical_analysis_1_tuto_d1p4",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "abdelbadie_younes",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0041_object_oriented_programming_lab_d1p5",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0042_mathematical_analysis_1_tuto_d1p5",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0043_mathematical_analysis_1_lecture_d2p0",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0044_linear_algebra_lecture_d2p0",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "leila_benferhat",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 3"
+    ],
+    "section_id": "Y1S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0045_linear_algebra_lecture_d2p1",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "ahmed_cherchem",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 3"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0046_mathematical_analysis_1_lecture_d2p1",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0047_mathematical_analysis_1_tuto_d2p2",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0048_linear_algebra_tuto_d2p2",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "ahmed_cherchem",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0049_introduction_to_linux_lab_d2p2",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "amina_bensalem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0050_linear_algebra_tuto_d2p2",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "leila_benferhat",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0051_english_2_speakinglistening_tuto_d2p2",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0052_english_2_speakinglistening_tuto_d2p3",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0053_object_oriented_programming_tuto_d2p3",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0054_introduction_to_statistics_tuto_d2p3",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "hamza_boughambouz",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0055_introduction_to_linux_lab_d2p4",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "yacine_sahraoui",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0056_english_2writingreading_tuto_d2p4",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "wahid_chami",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0057_linear_algebra_tuto_d2p4",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "hamza_boughambouz",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0058_english_2_speakinglistening_tuto_d2p4",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0059_introduction_to_linux_lab_d2p4",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "sami_abdelatif",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0060_introduction_to_linux_lab_d2p5",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "yacine_sahraoui",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0061_linear_algebra_tuto_d2p5",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "hamza_boughambouz",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0062_english_2writingreading_tuto_d2p5",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "wahid_chami",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0063_introduction_to_linux_lab_d2p5",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "sami_abdelatif",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0064_object_oriented_programming_lecture_d3p0",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "sami_belkacem",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0065_english_2_speakinglistening_tuto_d3p0",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0066_linear_algebra_tuto_d3p0",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "leila_benferhat",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0067_introduction_to_statistics_tuto_d3p0",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "nawel_remita",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0068_english_2writingreading_tuto_d3p0",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "wahid_chami",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0069_english_2writingreading_tuto_d3p1",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "wahid_chami",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0070_introduction_to_statistics_tuto_d3p1",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "nawel_remita",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0071_english_2_speakinglistening_tuto_d3p1",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0072_introduction_to_linux_lab_d3p1",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "amina_bensalem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0073_object_oriented_programming_lecture_d3p1",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "sami_belkacem",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0074_english_2_speakinglistening_tuto_d3p2",
+    "module_id": "english_2_speakinglistening",
+    "module_name": "English 2 (Speaking\\Listening)",
+    "teacher_id": "nassira_ouslimani",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0075_introduction_to_statistics_tuto_d3p2",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "nawel_remita",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0076_introduction_to_linux_lab_d3p2",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "amina_bensalem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0077_mathematical_analysis_1_tuto_d3p2",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "billal_elhamza",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0078_english_2writingreading_tuto_d3p2",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "wahid_chami",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0079_object_oriented_programming_tuto_d3p2",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "fouzia_anguel",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0080_object_oriented_programming_lab_d3p3",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0081_linear_algebra_tuto_d3p3",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "nouara_mokhtari",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0082_introduction_to_statistics_tuto_d3p3",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "hamza_boughambouz",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0083_introduction_to_statistics_tuto_d3p4",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "hamza_boughambouz",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0084_introduction_to_linux_lab_d3p4",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "sami_abdelatif",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0085_introduction_to_linux_lab_d3p4",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "amina_bensalem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0086_object_oriented_programming_lab_d3p4",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0087_linear_algebra_tuto_d3p4",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "nouara_mokhtari",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0088_introduction_to_linux_lab_d3p4",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "zouheyr_tamrabet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0089_introduction_to_linux_lab_d3p5",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "sami_abdelatif",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0090_mathematical_analysis_1_tuto_d3p5",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "billal_elhamza",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0091_introduction_to_linux_lab_d3p5",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "zouheyr_tamrabet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0092_english_2writingreading_tuto_d4p0",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "fatma_zahali",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0093_mathematical_analysis_1_tuto_d4p0",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "billal_elhamza",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0094_introduction_to_statistics_tuto_d4p0",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "hamza_boughambouz",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0095_mathematical_analysis_1_lecture_d4p0",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0096_mathematical_analysis_1_lecture_d4p1",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0097_introduction_to_linux_lab_d4p1",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "yacine_sahraoui",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0098_introduction_to_statistics_tuto_d4p1",
+    "module_id": "introduction_to_statistics",
+    "module_name": "Introduction to Statistics",
+    "teacher_id": "hamza_boughambouz",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0099_introduction_to_linux_lab_d4p1",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "zouheyr_tamrabet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0100_linear_algebra_tuto_d4p1",
+    "module_id": "linear_algebra",
+    "module_name": "Linear Algebra",
+    "teacher_id": "zahra_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0101_english_2writingreading_tuto_d4p1",
+    "module_id": "english_2writingreading",
+    "module_name": "English 2(Writing\\Reading)",
+    "teacher_id": "fatma_zahali",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Eng. Lab 1"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0102_mathematical_analysis_1_tuto_d4p2",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0103_object_oriented_programming_tuto_d4p2",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "fouzia_anguel",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0104_introduction_to_linux_lab_d4p2",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "yacine_sahraoui",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0105_introduction_to_linux_lab_d4p2",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "zouheyr_tamrabet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0106_object_oriented_programming_tuto_d4p2",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0107_mathematical_analysis_1_tuto_d4p2",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "zahra_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0108_object_oriented_programming_tuto_d4p3",
+    "module_id": "object_oriented_programming",
+    "module_name": "Object Oriented Programming",
+    "teacher_id": "fouzia_anguel",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0109_mathematical_analysis_1_tuto_d4p3",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "rahim_kacimi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0110_introduction_to_linux_lab_d4p3",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "oualid_ouarem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0111_mathematical_analysis_1_tuto_d4p4",
+    "module_id": "mathematical_analysis_1",
+    "module_name": "Mathematical Analysis 1",
+    "teacher_id": "billal_elhamza",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y1S1",
+    "group_id": "Y1G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0112_introduction_to_linux_lab_d4p4",
+    "module_id": "introduction_to_linux",
+    "module_name": "Introduction to Linux",
+    "teacher_id": "oualid_ouarem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y1S2",
+    "group_id": "Y1G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0113_introduction_to_ai_lecture_d0p0",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "ahmed_guessoum",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 3"
+    ],
+    "section_id": "Y2S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0114_computer_architecture_lecture_d0p0",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "mohamed_amine_mahmoudi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 4"
+    ],
+    "section_id": "Y2S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0115_computer_architecture_lecture_d0p1",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "mohamed_amine_mahmoudi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0116_introduction_to_ai_lecture_d0p1",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "ahmed_guessoum",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 3"
+    ],
+    "section_id": "Y2S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0117_introduction_to_ai_lab_d0p2",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0118_introduction_to_ai_tuto_d0p2",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0119_mathematical_analysis_3_tuto_d0p2",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0120_theory_of_computing_tuto_d0p2",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "farah_ibelaiden",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0121_electronic_circuits_labs_lab_d0p2",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amir_djouama",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0122_mathematical_analysis_3_tuto_d0p3",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0123_computer_architecture_tuto_d0p3",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "mohamed_amine_mahmoudi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0124_introduction_to_ai_tuto_d0p3",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0125_introduction_to_ai_lab_d0p3",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0126_introduction_to_ai_lab_d0p3",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_ait_mehdi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0127_electronic_circuits_labs_lab_d0p3",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amir_djouama",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0128_theory_of_computing_tuto_d0p3",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "farah_ibelaiden",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0129_mathematical_analysis_3_tuto_d0p4",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "mohamed_mourad_lhanafi_ait_yahia",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0130_mathematical_analysis_3_tuto_d0p4",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0131_theory_of_computing_tuto_d0p4",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "farah_ibelaiden",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0132_computer_architecture_tuto_d0p4",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "mohamed_amine_mahmoudi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0133_introduction_to_ai_tuto_d0p4",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0134_introduction_to_ai_lab_d0p4",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0135_introduction_to_ai_lab_d0p4",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_ait_mehdi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0136_mathematical_analysis_3_tuto_d0p5",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "mohamed_mourad_lhanafi_ait_yahia",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0137_electronic_circuits_labs_lab_d0p5",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amir_djouama",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0138_introduction_to_ai_tuto_d0p5",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "zineb_djouamai",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0139_computer_architecture_tuto_d1p0",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "iness_nedji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0140_introduction_to_ai_lab_d1p0",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0141_statistical_inference_tuto_d1p0",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "samira_taleb",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0142_introduction_to_ai_lab_d1p0",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_ait_mehdi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0143_introduction_to_ai_tuto_d1p0",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0144_statistical_inference_lecture_d1p0",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "riad_remita",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": null,
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0145_statistical_inference_lecture_d1p1",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "riad_remita",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": null,
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0146_computer_architecture_tuto_d1p1",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "iness_nedji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0147_mathematical_analysis_3_tuto_d1p1",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0148_statistical_inference_tuto_d1p1",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "samira_taleb",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0149_operating_systems_tuto_d1p1",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "noureddine_lasla",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0150_operating_systems_lab_d1p1",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "mohamed_akram_khelili",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0151_computer_architecture_lab_d1p1",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "mohamed_amine_mahmoudi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0152_computer_architecture_lab_d1p2",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "mohamed_amine_mahmoudi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0153_operating_systems_tuto_d1p2",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "noureddine_lasla",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0154_computer_architecture_tuto_d1p2",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "iness_nedji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0155_mathematical_analysis_3_tuto_d1p2",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0156_statistical_inference_tuto_d1p2",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "riad_remita",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0157_introduction_to_ai_lab_d1p2",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_ait_mehdi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0158_electronic_circuits_labs_lab_d1p3",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amina_bensalem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0159_computer_architecture_lab_d1p3",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "mohamed_amine_mahmoudi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0160_operating_systems_tuto_d1p3",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "noureddine_lasla",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0161_introduction_to_ai_tuto_d1p3",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0162_computer_architecture_lab_d1p4",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "mohamed_amine_mahmoudi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0163_statistical_inference_tuto_d1p4",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "abdelkader_ameraoui",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0164_electronic_circuits_labs_lab_d1p4",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amina_bensalem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0165_operating_systems_lecture_d2p0",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "karim_lounis",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0166_introduction_to_ai_lecture_d2p0",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "ahmed_guessoum",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y2S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0167_introduction_to_ai_lecture_d2p1",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "ahmed_guessoum",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y2S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0168_operating_systems_lecture_d2p1",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "karim_lounis",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 4"
+    ],
+    "section_id": "Y2S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0169_introduction_to_ai_lab_d2p2",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0170_mathematical_analysis_3_tuto_d2p2",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0171_operating_systems_tuto_d2p2",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "okba_tibermacine",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0172_operating_systems_lab_d2p2",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "mohamed_akram_khelili",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0173_introduction_to_ai_tuto_d2p2",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0174_introduction_to_ai_tuto_d2p3",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0175_electronic_circuits_labs_lab_d2p3",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amina_bensalem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0176_introduction_to_ai_lab_d2p3",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0177_mathematical_analysis_3_tuto_d2p3",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "mohamed_mourad_lhanafi_ait_yahia",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0178_operating_systems_lab_d2p3",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "mohamed_akram_khelili",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0179_mathematical_analysis_3_tuto_d2p3",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0180_electronic_circuits_labs_lab_d2p4",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amina_bensalem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0181_introduction_to_ai_tuto_d2p4",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0182_operating_systems_lab_d2p4",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0183_operating_systems_lab_d2p4",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "zouheyr_tamrabet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0184_mathematical_analysis_3_tuto_d2p4",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "mohamed_mourad_lhanafi_ait_yahia",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0185_computer_architecture_tuto_d2p4",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "zahia_mabrek",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0186_mathematical_analysis_3_tuto_d2p4",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "lila_ihaddadene",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0187_operating_systems_lab_d2p5",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0188_operating_systems_lab_d2p5",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "zouheyr_tamrabet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0189_introduction_to_ai_lab_d2p5",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0190_computer_architecture_tuto_d2p5",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "zahia_mabrek",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0191_mathematical_analysis_3_lecture_d3p0",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "rokia_kechkar",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0192_theory_of_computing_tuto_d3p0",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "fouzia_anguel",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0193_operating_systems_tuto_d3p0",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "noureddine_lasla",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0194_computer_architecture_tuto_d3p0",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "iness_nedji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0195_introduction_to_ai_tuto_d3p0",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "zineb_djouamai",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0196_computer_architecture_tuto_d3p0",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "zahia_mabrek",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0197_operating_systems_lab_d3p0",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "zouheyr_tamrabet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0198_operating_systems_lab_d3p1",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "zouheyr_tamrabet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0199_introduction_to_ai_tuto_d3p1",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "zineb_djouamai",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0200_computer_architecture_tuto_d3p1",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "iness_nedji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0201_operating_systems_tuto_d3p1",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "okba_tibermacine",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0202_computer_architecture_tuto_d3p1",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "zahia_mabrek",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0203_theory_of_computing_tuto_d3p1",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "fouzia_anguel",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0204_mathematical_analysis_3_lecture_d3p1",
+    "module_id": "mathematical_analysis_3",
+    "module_name": "Mathematical Analysis 3",
+    "teacher_id": "rokia_kechkar",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 4"
+    ],
+    "section_id": "Y2S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0205_introduction_to_ai_lab_d3p2",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0206_statistical_inference_tuto_d3p2",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "houssam_brairi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0207_operating_systems_tuto_d3p2",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "zahia_mabrek",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0208_computer_architecture_tuto_d3p2",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "iness_nedji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0209_computer_architecture_lab_d3p2",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "randa_boukabene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0210_electronic_circuits_labs_lab_d3p2",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amir_djouama",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0211_computer_architecture_lab_d3p3",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "randa_boukabene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0212_operating_systems_lab_d3p3",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "mohamed_akram_khelili",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0213_electronic_circuits_labs_lab_d3p3",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "abdellah_khelloufi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0214_statistical_inference_tuto_d3p3",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "houssam_brairi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0215_statistical_inference_tuto_d3p4",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "houssam_brairi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0216_electronic_circuits_labs_lab_d3p4",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "abdellah_khelloufi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0217_computer_architecture_lab_d3p4",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "randa_boukabene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0218_introduction_to_ai_tuto_d3p4",
+    "module_id": "introduction_to_ai",
+    "module_name": "Introduction to AI",
+    "teacher_id": "zineb_djouamai",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0219_operating_systems_lab_d3p5",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0220_statistical_inference_tuto_d3p5",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "houssam_brairi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0221_computer_architecture_lab_d3p5",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "randa_boukabene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0222_theory_of_computing_lecture_d4p0",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "imed_bouchrika",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": null,
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0223_statistical_inference_tuto_d4p0",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "chima_hedadji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0224_theory_of_computing_tuto_d4p0",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "farah_ibelaiden",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G8",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0225_theory_of_computing_tuto_d4p0",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "fouzia_anguel",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0226_computer_architecture_lab_d4p0",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "randa_boukabene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0227_electronic_circuits_labs_lab_d4p0",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amir_djouama",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0228_operating_systems_tuto_d4p0",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "zahia_mabrek",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0229_theory_of_computing_tuto_d4p1",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "farah_ibelaiden",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0230_computer_architecture_lab_d4p1",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "randa_boukabene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0231_operating_systems_lab_d4p1",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "chabane_djeddi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0232_electronic_circuits_labs_lab_d4p1",
+    "module_id": "electronic_circuits_labs",
+    "module_name": "Electronic Circuits Labs",
+    "teacher_id": "amir_djouama",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Circuit Lab 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0233_theory_of_computing_tuto_d4p1",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "fouzia_anguel",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 5"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0234_statistical_inference_tuto_d4p1",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "chima_hedadji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G6",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0235_theory_of_computing_lecture_d4p1",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "imed_bouchrika",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": null,
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0236_theory_of_computing_tuto_d4p2",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "farah_ibelaiden",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0237_statistical_inference_tuto_d4p2",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "chima_hedadji",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G4",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0238_computer_architecture_lab_d4p2",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "randa_boukabene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0239_operating_systems_tuto_d4p2",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "zahia_mabrek",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0240_statistical_inference_tuto_d4p2",
+    "module_id": "statistical_inference",
+    "module_name": "Statistical Inference",
+    "teacher_id": "abdelkader_ameraoui",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G10",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0241_operating_systems_tuto_d4p3",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "rachid_naamane",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0242_theory_of_computing_tuto_d4p3",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "farah_ibelaiden",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G3",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0243_computer_architecture_lab_d4p3",
+    "module_id": "computer_architecture",
+    "module_name": "Computer Architecture",
+    "teacher_id": "randa_boukabene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0244_operating_systems_tuto_d4p3",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "zahia_mabrek",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G11",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0245_operating_systems_tuto_d4p4",
+    "module_id": "operating_systems",
+    "module_name": "Operating Systems",
+    "teacher_id": "rachid_naamane",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 2"
+    ],
+    "section_id": "Y2S1",
+    "group_id": "Y2G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0246_theory_of_computing_tuto_d4p4",
+    "module_id": "theory_of_computing",
+    "module_name": "Theory of Computing",
+    "teacher_id": "farah_ibelaiden",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y2S2",
+    "group_id": "Y2G12",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0247_machine_learning_lecture_d0p0",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "mohamed_brahimi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 6"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0248_computer_and_network_security_lecture_d0p0",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "karim_lounis",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0249_computer_and_network_security_lecture_d0p1",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "karim_lounis",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0250_time_series_analysis_and_classification_lecture_d0p1",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "houssam_brairi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 6"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0251_machine_learning_tuto_d0p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "mohamed_brahimi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0252_group_project_lab_d0p2",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "mohammed_el_amin_larabi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0253_time_series_analysis_and_classification_tuto_d0p2",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "tarek_medkour",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0254_computer_and_network_security_tuto_d0p2",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "karim_lounis",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0255_group_project_lab_d0p2",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "meziane_iftene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0256_time_series_analysis_and_classification_tuto_d0p2",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "houssam_brairi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0257_machine_learning_tuto_d0p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "mohamed_ait_mehdi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0258_machine_learning_tuto_d0p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "zineb_djouamai",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0259_machine_learning_lab_d0p3",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "abdellah_khelloufi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0260_numerical_methods_and_optimisation_tuto_d0p3",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "abdelbadie_younes",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0261_machine_learning_tuto_d0p3",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "zineb_djouamai",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0262_machine_learning_lab_d0p4",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "abdellah_khelloufi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0263_numerical_methods_and_optimisation_tuto_d0p4",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "abdelbadie_younes",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0264_machine_learning_tuto_d0p4",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "zineb_djouamai",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0265_time_series_analysis_and_classification_tuto_d0p4",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "houssam_brairi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0266_time_series_analysis_and_classification_tuto_d0p5",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "houssam_brairi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0267_machine_learning_lecture_d1p0",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "mohamed_brahimi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0268_machine_learning_lecture_d1p0",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0269_machine_learning_lab_d1p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0270_time_series_analysis_and_classification_tuto_d1p1",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "tarek_medkour",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0271_advanced_databases_tuto_d1p1",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0272_group_project_lab_d1p1",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0273_machine_learning_tuto_d1p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "mohamed_brahimi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0274_computer_and_network_security_tuto_d1p1",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "karim_lounis",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Amphi 8"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0275_machine_learning_lab_d1p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "seif_eddine_bouziane",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0276_machine_learning_lab_d1p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0277_computer_and_network_security_lab_d1p1",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "ouarda_lounis",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0278_numerical_methods_and_optimisation_tuto_d1p1",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0279_group_project_lab_d1p2",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "mohamed_hadj_ameur",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0280_advanced_databases_tuto_d1p2",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0281_machine_learning_lab_d1p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "seif_eddine_bouziane",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0282_machine_learning_lab_d1p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0283_computer_and_network_security_lab_d1p2",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "ouarda_lounis",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0284_numerical_methods_and_optimisation_tuto_d1p2",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0285_computer_and_network_security_tuto_d1p2",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "karim_lounis",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0286_numerical_methods_and_optimisation_lecture_d1p3",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "mohamed_amine_boutiche",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0287_machine_learning_lab_d1p4",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0288_numerical_methods_and_optimisation_tuto_d1p4",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0289_machine_learning_lab_d1p4",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "seif_eddine_bouziane",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0290_computer_and_network_security_lab_d1p4",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "ouarda_lounis",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0291_numerical_methods_and_optimisation_lecture_d1p4",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "mohamed_amine_boutiche",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0292_computer_and_network_security_lab_d1p5",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "ouarda_lounis",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0293_machine_learning_lab_d1p5",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "seif_eddine_bouziane",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0294_group_project_lab_d1p5",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0295_numerical_methods_and_optimisation_tuto_d1p5",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "abdelbadie_younes",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 19"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0296_numerical_methods_and_optimisation_tuto_d1p5",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 23"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0297_advanced_databases_lecture_d2p0",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "kamel_boukhalfa",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0298_machine_learning_lecture_d2p0",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 6"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0299_computer_and_network_security_tuto_d2p1",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "ouarda_lounis",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0300_advanced_databases_lab_d2p1",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "kamel_bal",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0301_machine_learning_tuto_d2p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "elhocine_boutellaa",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0302_machine_learning_lab_d2p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0303_advanced_databases_lecture_d2p1",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "kamel_boukhalfa",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0304_computer_and_network_security_lab_d2p2",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "yacine_sahraoui",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0305_computer_and_network_security_tuto_d2p2",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "ouarda_lounis",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0306_machine_learning_tuto_d2p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "elhocine_boutellaa",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0307_advanced_databases_lab_d2p2",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "kamel_bal",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0308_machine_learning_lab_d2p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0309_numerical_methods_and_optimisation_lecture_d2p3",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "mohamed_amine_boutiche",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0310_numerical_methods_and_optimisation_lecture_d2p4",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "mohamed_amine_boutiche",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 1"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0311_advanced_databases_lab_d2p4",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "kamel_bal",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0312_computer_and_network_security_lab_d2p4",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "noureddine_lasla",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0313_time_series_analysis_and_classification_tuto_d2p4",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "oualid_ouarem",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0314_computer_and_network_security_tuto_d2p4",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "ouarda_lounis",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0315_time_series_analysis_and_classification_tuto_d2p5",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "oualid_ouarem",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0316_computer_and_network_security_tuto_d2p5",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "ouarda_lounis",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0317_computer_and_network_security_lab_d2p5",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "noureddine_lasla",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0318_advanced_databases_lab_d2p5",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "kamel_bal",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0319_time_series_analysis_and_classification_lecture_d3p0",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "tarek_medkour",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0320_machine_learning_tuto_d3p0",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "mohamed_ait_mehdi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0321_group_project_lab_d3p0",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "amir_djouama",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0322_machine_learning_lab_d3p0",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0323_advanced_databases_tuto_d3p0",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "rahma_djiroun",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0324_time_series_analysis_and_classification_lab_d3p1",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "oualid_ouarem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0325_numerical_methods_and_optimisation_lab_d3p1",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0326_project_management_tuto_d3p1",
+    "module_id": "project_management",
+    "module_name": "Project Management",
+    "teacher_id": "nour_el_houda_bouadila",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0327_computer_and_network_security_lab_d3p1",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "noureddine_lasla",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0328_machine_learning_tuto_d3p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "mohamed_ait_mehdi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0329_advanced_databases_tuto_d3p1",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "rahma_djiroun",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0330_machine_learning_lab_d3p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "nasreddine_guelfout",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0331_machine_learning_lab_d3p1",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0332_group_project_lab_d3p1",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "amir_djouama",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0333_machine_learning_tuto_d3p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "zineb_djouamai",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 6"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0334_computer_and_network_security_lab_d3p2",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "noureddine_lasla",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0335_time_series_analysis_and_classification_lab_d3p2",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "oualid_ouarem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0336_numerical_methods_and_optimisation_lab_d3p2",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0337_project_management_tuto_d3p2",
+    "module_id": "project_management",
+    "module_name": "Project Management",
+    "teacher_id": "nour_el_houda_bouadila",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0338_machine_learning_tuto_d3p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "mohamed_ait_mehdi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 4"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0339_machine_learning_lab_d3p2",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "nasreddine_guelfout",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0340_group_project_lab_d3p2",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "aicha_boutorh",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0341_group_project_lab_d3p3",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "sami_belkacem",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0342_advanced_databases_tuto_d3p3",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0343_numerical_methods_and_optimisation_tuto_d3p3",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "billal_elhamza",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0344_advanced_databases_tuto_d3p3",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "rahma_djiroun",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0345_machine_learning_lab_d3p3",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "abir_derouiche",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0346_numerical_methods_and_optimisation_tuto_d3p4",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0347_machine_learning_lab_d3p4",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0348_advanced_databases_tuto_d3p4",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0349_machine_learning_lab_d3p4",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "nasreddine_guelfout",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0350_time_series_analysis_and_classification_tuto_d3p4",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "oualid_ouarem",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 21"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0351_advanced_databases_lab_d3p4",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "baya_lina_menai",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0352_computer_and_network_security_lab_d3p4",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "yacine_sahraoui",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0353_advanced_databases_tuto_d3p4",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "rahma_djiroun",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0354_machine_learning_lab_d3p4",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "abir_derouiche",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0355_advanced_databases_tuto_d3p5",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "meriem_amel_guessoum",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0356_machine_learning_lab_d3p5",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "youcef_omari",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0357_machine_learning_lab_d3p5",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "nasreddine_guelfout",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0358_advanced_databases_lab_d3p5",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "baya_lina_menai",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0359_computer_and_network_security_lab_d3p5",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "yacine_sahraoui",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0360_project_management_lecture_d4p0",
+    "module_id": "project_management",
+    "module_name": "Project Management",
+    "teacher_id": "ibtissem_brahiti",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 3"
+    ],
+    "section_id": "Y3S1",
+    "group_id": null,
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0361_advanced_databases_lab_d4p0",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "nadira_benmedakhene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0362_time_series_analysis_and_classification_tuto_d4p0",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "houssam_brairi",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0363_group_project_lab_d4p0",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "mohamed_brahimi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0364_advanced_databases_tuto_d4p0",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "yousra_izountar",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0365_time_series_analysis_and_classification_tuto_d4p0",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "abderrahim_kessira",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0366_time_series_analysis_and_classification_tuto_d4p1",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "oualid_ouarem",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0367_advanced_databases_lab_d4p1",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "nadira_benmedakhene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0368_numerical_methods_and_optimisation_tuto_d4p1",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "billal_elhamza",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G3",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0369_group_project_lab_d4p1",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "mohamed_brahimi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0370_advanced_databases_tuto_d4p1",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "yousra_izountar",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0371_numerical_methods_and_optimisation_tuto_d4p1",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 22"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0372_project_management_lecture_d4p1",
+    "module_id": "project_management",
+    "module_name": "Project Management",
+    "teacher_id": "ibtissem_brahiti",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": null,
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0373_advanced_databases_lab_d4p2",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "nadira_benmedakhene",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0374_advanced_databases_tuto_d4p2",
+    "module_id": "advanced_databases",
+    "module_name": "Advanced Databases",
+    "teacher_id": "yousra_izountar",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 24"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0375_numerical_methods_and_optimisation_tuto_d4p2",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "billal_elhamza",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 20"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G4",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0376_time_series_analysis_and_classification_tuto_d4p2",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "abderrahim_kessira",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G6",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0377_group_project_lab_d4p2",
+    "module_id": "group_project",
+    "module_name": "Group Project",
+    "teacher_id": "okba_tibermacine",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0378_time_series_analysis_and_classification_lab_d4p2",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "houssam_brairi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G10",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0379_project_management_tuto_d4p2",
+    "module_id": "project_management",
+    "module_name": "Project Management",
+    "teacher_id": "ibtissem_brahiti",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G11",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0380_numerical_methods_and_optimisation_lab_d4p2",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G12",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0381_computer_and_network_security_lab_d4p3",
+    "module_id": "computer_and_network_security",
+    "module_name": "Computer and Network Security",
+    "teacher_id": "yacine_sahraoui",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y3S1",
+    "group_id": "Y3G5",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0382_time_series_analysis_and_classification_lab_d4p3",
+    "module_id": "time_series_analysis_and_classification",
+    "module_name": "Time Series Analysis and Classification",
+    "teacher_id": "houssam_brairi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0383_project_management_tuto_d4p3",
+    "module_id": "project_management",
+    "module_name": "Project Management",
+    "teacher_id": "ibtissem_brahiti",
+    "session_type": "tuto",
+    "duration_slots": 1,
+    "required_room_type": "tuto",
+    "allowed_rooms": [
+      "Tuto 1"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G8",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0384_numerical_methods_and_optimisation_lab_d4p3",
+    "module_id": "numerical_methods_and_optimisation",
+    "module_name": "Numerical Methods and Optimisation",
+    "teacher_id": "soumaya_lakehal",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G9",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0385_machine_learning_lab_d4p4",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "lyazid_hamimed",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0386_machine_learning_lab_d4p5",
+    "module_id": "machine_learning",
+    "module_name": "Machine Learning",
+    "teacher_id": "lyazid_hamimed",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y3S2",
+    "group_id": "Y3G7",
+    "min_working_days": 5
+  },
+  {
+    "session_id": "s0387_big_data_analytics_visualization_lecture_d0p0",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "fouad_dahak",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S1",
+    "group_id": null,
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0388_reinforcement_learning_lab_d0p0",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "elhocine_boutellaa",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0389_enterprise_computing_lab_d0p0",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "imed_bouchrika",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0390_high_performance_computing_lab_d0p1",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "abdelhakim_cheriet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0391_reinforcement_learning_lab_d0p1",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "elhocine_boutellaa",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0392_enterprise_computing_lab_d0p1",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "imed_bouchrika",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0393_big_data_analytics_visualization_lecture_d0p1",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "fouad_dahak",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S2",
+    "group_id": null,
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0394_reinforcement_learning_lab_d0p2",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "elhocine_boutellaa",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0395_high_performance_computing_lab_d0p2",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "abdelhakim_cheriet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0396_enterprise_computing_lab_d0p2",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "imed_bouchrika",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0397_big_data_analytics_visualization_lab_d0p2",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "fouad_dahak",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G8",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0398_computer_vision_lecture_d0p3",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "sid_ahmed_berrani",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0399_computer_vision_lecture_d0p4",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "sid_ahmed_berrani",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0400_computer_vision_lecture_d1p0",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "sid_ahmed_berrani",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0401_high_performance_computing_lecture_d1p0",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "abdelhakim_cheriet",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 6"
+    ],
+    "section_id": "Y4S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0402_speech_processing_lecture_d1p1",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "nacereddine_nafaa",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y4S1",
+    "group_id": null,
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0403_computer_vision_lecture_d1p1",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "sid_ahmed_berrani",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0404_enterprise_computing_lab_d1p2",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "imed_bouchrika",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0405_speech_processing_lab_d1p2",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "nacereddine_nafaa",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G6",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0406_high_performance_computing_lab_d1p2",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "abdelhakim_cheriet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0407_reinforcement_learning_lab_d1p2",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "aissa_boulmerka",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0408_computer_vision_lab_d1p3",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "mohamed_akram_khelili",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0409_enterprise_computing_lab_d1p3",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "imed_bouchrika",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0410_computer_vision_lab_d1p4",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "mohamed_akram_khelili",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0411_academic_communication_and_research_lecture_d1p4",
+    "module_id": "academic_communication_and_research",
+    "module_name": "Academic Communication and Research",
+    "teacher_id": "wahid_chami",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S2",
+    "group_id": null,
+    "min_working_days": 1
+  },
+  {
+    "session_id": "s0412_academic_communication_and_research_lecture_d1p5",
+    "module_id": "academic_communication_and_research",
+    "module_name": "Academic Communication and Research",
+    "teacher_id": "wahid_chami",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S1",
+    "group_id": null,
+    "min_working_days": 1
+  },
+  {
+    "session_id": "s0413_speech_processing_lab_d2p0",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "oualid_djekoune",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G2",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0414_big_data_analytics_visualization_lab_d2p0",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "lila_meziani",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G5",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0415_computer_vision_lab_d2p0",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "hayet_saadi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0416_computer_vision_lab_d2p0",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "seif_eddine_bouziane",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0417_speech_processing_lab_d2p1",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "oualid_djekoune",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G1",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0418_big_data_analytics_visualization_lab_d2p1",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "ikram_semcheddine",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G2",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0419_big_data_analytics_visualization_lab_d2p1",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "lila_meziani",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab1"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G3",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0420_enterprise_computing_lab_d2p1",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "ahmed_laouedj",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0421_computer_vision_lab_d2p1",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "hayet_saadi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab2"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0422_computer_vision_lab_d2p1",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "seif_eddine_bouziane",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab3"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0423_computer_vision_lab_d2p2",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "nadjib_boucetta",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0424_big_data_analytics_visualization_lab_d2p2",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "ikram_semcheddine",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G6",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0425_enterprise_computing_lab_d2p2",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "ahmed_laouedj",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G7",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0426_enterprise_computing_lab_d2p3",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "ahmed_laouedj",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0427_computer_vision_lab_d2p3",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "nadjib_boucetta",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0428_computer_vision_lab_d2p3",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "hayet_saadi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0429_big_data_analytics_visualization_lab_d2p3",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "lila_meziani",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G4",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0430_computer_vision_lab_d2p3",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "seif_eddine_bouziane",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0431_big_data_analytics_visualization_lab_d2p3",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "ikram_semcheddine",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G7",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0432_big_data_analytics_visualization_lab_d2p4",
+    "module_id": "big_data_analytics_visualization",
+    "module_name": "Big Data Analytics & Visualization",
+    "teacher_id": "lila_meziani",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab11"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G1",
+    "min_working_days": 2
+  },
+  {
+    "session_id": "s0433_computer_vision_lab_d2p4",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "hayet_saadi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0434_computer_vision_lab_d2p4",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "nadjib_boucetta",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0435_computer_vision_lab_d2p4",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "seif_eddine_bouziane",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab7"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0436_high_performance_computing_lab_d2p4",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "abdelhakim_cheriet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0437_high_performance_computing_lab_d2p5",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "abdelhakim_cheriet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G2",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0438_computer_vision_lab_d2p5",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "nadjib_boucetta",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0439_high_performance_computing_lecture_d3p0",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "abdelhakim_cheriet",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 6"
+    ],
+    "section_id": "Y4S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0440_speech_processing_lab_d3p0",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "hakim_tayakout",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G5",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0441_reinforcement_learning_lab_d3p0",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "hayet_saadi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab8"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G6",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0442_high_performance_computing_lab_d3p0",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "sami_abdelatif",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0443_high_performance_computing_lab_d3p1",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "sami_abdelatif",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G3",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0444_speech_processing_lab_d3p1",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "hakim_tayakout",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G4",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0445_speech_processing_lecture_d3p1",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "nacereddine_nafaa",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 5"
+    ],
+    "section_id": "Y4S2",
+    "group_id": null,
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0446_high_performance_computing_lab_d3p2",
+    "module_id": "high_performance_computing",
+    "module_name": "High Performance Computing",
+    "teacher_id": "abdelhakim_cheriet",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab12"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0447_reinforcement_learning_lab_d3p2",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "hayet_saadi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G5",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0448_speech_processing_lab_d3p2",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "nacereddine_nafaa",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab6"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G8",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0449_reinforcement_learning_lab_d3p3",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "hayet_saadi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab9"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G1",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0450_speech_processing_lab_d3p3",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "hakim_tayakout",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G3",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0451_speech_processing_lab_d3p4",
+    "module_id": "speech_processing",
+    "module_name": "Speech Processing",
+    "teacher_id": "hakim_tayakout",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab5"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G7",
+    "min_working_days": 3
+  },
+  {
+    "session_id": "s0452_computer_vision_lab_d3p4",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "mohamed_akram_khelili",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0453_reinforcement_learning_lab_d3p5",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "hayet_saadi",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab4"
+    ],
+    "section_id": "Y4S1",
+    "group_id": "Y4G4",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0454_computer_vision_lab_d3p5",
+    "module_id": "computer_vision",
+    "module_name": "Computer Vision",
+    "teacher_id": "mohamed_akram_khelili",
+    "session_type": "lab",
+    "duration_slots": 1,
+    "required_room_type": "lab",
+    "allowed_rooms": [
+      "Lab10"
+    ],
+    "section_id": "Y4S2",
+    "group_id": "Y4G8",
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0455_enterprise_computing_lecture_d4p0",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "kamel_eddine_heraguemi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 6"
+    ],
+    "section_id": "Y4S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0456_reinforcement_learning_lecture_d4p0",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "aissa_boulmerka",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S2",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0457_reinforcement_learning_lecture_d4p1",
+    "module_id": "reinforcement_learning",
+    "module_name": "Reinforcement Learning",
+    "teacher_id": "aissa_boulmerka",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 7"
+    ],
+    "section_id": "Y4S1",
+    "group_id": null,
+    "min_working_days": 4
+  },
+  {
+    "session_id": "s0458_enterprise_computing_lecture_d4p1",
+    "module_id": "enterprise_computing",
+    "module_name": "Enterprise Computing",
+    "teacher_id": "kamel_eddine_heraguemi",
+    "session_type": "lecture",
+    "duration_slots": 1,
+    "required_room_type": "amphi",
+    "allowed_rooms": [
+      "Amphi 6"
+    ],
+    "section_id": "Y4S2",
+    "group_id": null,
+    "min_working_days": 4
+  }
+]

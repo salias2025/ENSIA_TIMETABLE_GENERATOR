@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Occupancy Heatmap | CSP vs SA vs Hill Climbing</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: system-ui, 'Segoe UI', 'Inter', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+            margin: 0;
+            padding: 24px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 1.8rem;
+            color: #064e3b;
+        }
+        .subtitle {
+            color: #047857;
+            margin-bottom: 24px;
+            border-left: 4px solid #10b981;
+            padding-left: 16px;
+        }
+        .controls {
+            background: white;
+            border-radius: 20px;
+            padding: 20px 28px;
+            margin-bottom: 28px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            align-items: flex-end;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .control-group label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #047857;
+        }
+        select, button {
+            padding: 10px 16px;
+            font-size: 0.9rem;
+            border-radius: 12px;
+            border: 1px solid #a7f3d0;
+            background: white;
+            cursor: pointer;
+        }
+        select {
+            min-width: 200px;
+        }
+        button {
+            background: #10b981;
+            color: white;
+            border: none;
+            font-weight: 600;
+        }
+        button:hover {
+            background: #059669;
+        }
+        .room-selector {
+            margin-bottom: 24px;
+        }
+        .heatmap {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            overflow-x: auto;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        .heatmap-grid {
+            display: grid;
+            grid-template-columns: 80px repeat(6, minmax(90px, 1fr));
+            gap: 2px;
+            background: #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .heatmap-header, .heatmap-cell {
+            background: white;
+            padding: 12px 8px;
+            text-align: center;
+            font-size: 0.75rem;
+        }
+        .heatmap-header {
+            background: #f0fdf4;
+            font-weight: 700;
+            color: #065f46;
+        }
+        .heatmap-cell {
+            min-height: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+        .heatmap-cell.occupied {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        .heatmap-cell.free {
+            background: #e8f5e9;
+            color: #166534;
+        }
+        .occupancy-count {
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+        .algorithm-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .tab-btn {
+            background: #f0fdf4;
+            color: #065f46;
+            border: 1px solid #a7f3d0;
+            padding: 10px 24px;
+            border-radius: 40px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .tab-btn.active {
+            background: #10b981;
+            color: white;
+        }
+        .legend {
+            display: flex;
+            gap: 20px;
+            margin-top: 16px;
+            justify-content: center;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.75rem;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+        .legend-color.red { background: #fee2e2; border: 1px solid #fca5a5; }
+        .legend-color.green { background: #e8f5e9; border: 1px solid #86efac; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🏢 Room Occupancy Heatmap</h1>
+    <div class="subtitle">Which rooms are occupied at each time slot?</div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Select Room</label>
+            <select id="roomSelect">
+                <option value="">-- Loading rooms --</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label>&nbsp;</label>
+            <button id="showBtn">📊 Show Occupancy</button>
+        </div>
+    </div>
+
+    <div class="algorithm-tabs">
+        <button class="tab-btn active" data-algo="csp">🎯 CSP</button>
+        <button class="tab-btn" data-algo="sa">🔥 SA</button>
+        <button class="tab-btn" data-algo="hc">⛰️ Hill Climbing</button>
+    </div>
+
+    <div id="heatmapContainer" class="heatmap"></div>
+    <div class="legend">
+        <div class="legend-item"><div class="legend-color red"></div><span>Occupied (at least 1 session)</span></div>
+        <div class="legend-item"><div class="legend-color green"></div><span>Free</span></div>
+    </div>
+</div>
+
+<script>
+    let cspData = [], saData = [], hcData = [];
+    let allRooms = new Set();
+    let roomsList = [];
+
+    async function loadData() {
+        const [cspResp, saResp, hcResp] = await Promise.all([
+            fetch('schedule_output.json'),
+            fetch('schedule_sa_output.json'),
+            fetch('hc_schedule_output.json')
+        ]);
+        cspData = await cspResp.json();
+        saData = await saResp.json();
+        hcData = await hcResp.json();
+        
+        const extractRooms = (data) => { data.forEach(s => { if (s.room) allRooms.add(s.room); }); };
+        extractRooms(cspData);
+        extractRooms(saData);
+        extractRooms(hcData);
+        
+        roomsList = Array.from(allRooms).sort();
+        const select = document.getElementById('roomSelect');
+        select.innerHTML = '<option value="">-- Select a room --</option>';
+        roomsList.forEach(r => {
+            const opt = document.createElement('option');
+            opt.value = r;
+            opt.textContent = r;
+            select.appendChild(opt);
+        });
+        console.log(`Loaded ${roomsList.length} rooms`);
+    }
+
+    function buildOccupancyHeatmap(data, roomId) {
+        const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu'];
+        const periods = 6;
+        const occupancy = Array(5).fill().map(() => Array(6).fill(0));
+        
+        const roomSessions = data.filter(s => s.room === roomId);
+        roomSessions.forEach(s => {
+            if (s.day >= 0 && s.day < 5 && s.period >= 0 && s.period < 6) {
+                occupancy[s.day][s.period]++;
+            }
+        });
+        
+        let html = '<div class="heatmap-grid">';
+        html += '<div class="heatmap-header">Day \\ Period</div>';
+        for (let p = 0; p < periods; p++) html += `<div class="heatmap-header">P${p}</div>`;
+        
+        for (let d = 0; d < 5; d++) {
+            html += `<div class="heatmap-header">${days[d]}</div>`;
+            for (let p = 0; p < periods; p++) {
+                const count = occupancy[d][p];
+                const isOccupied = count > 0;
+                html += `<div class="heatmap-cell ${isOccupied ? 'occupied' : 'free'}">
+                            <div class="occupancy-count">${count}</div>
+                            <div style="font-size:0.65rem;">${isOccupied ? 'occupied' : 'free'}</div>
+                         </div>`;
+            }
+        }
+        html += '</div>';
+        return html;
+    }
+    
+    let currentData = cspData;
+    let currentRoom = null;
+    
+    function showOccupancy() {
+        const room = document.getElementById('roomSelect').value;
+        if (!room) { alert('Select a room'); return; }
+        currentRoom = room;
+        const activeAlgo = document.querySelector('.tab-btn.active').dataset.algo;
+        let data;
+        if (activeAlgo === 'csp') data = cspData;
+        else if (activeAlgo === 'sa') data = saData;
+        else data = hcData;
+        
+        document.getElementById('heatmapContainer').innerHTML = buildOccupancyHeatmap(data, room);
+    }
+    
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            if (currentRoom) showOccupancy();
+        });
+    });
+    
+    document.getElementById('showBtn').addEventListener('click', showOccupancy);
+    loadData();
+</script>
+</body>
+</html>
