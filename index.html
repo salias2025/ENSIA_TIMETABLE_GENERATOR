@@ -496,29 +496,29 @@
 
         <nav class="sidebar-nav">
             <div class="nav-label">Main Navigation</div>
-            <a href="index.html" class="active">
+            <a href="/frontend/index.html" class="active">
                 <i class="fas fa-th-large"></i> Dashboard
             </a>
-            <a href="timetablepergroup.html">
+            <a href="/frontend/timetablepergroup.html">
                 <i class="fas fa-users"></i> By Group
                 <span class="badge">3</span>
             </a>
-            <a href="timetablepersection.html">
+            <a href="/frontend/timetablepersection.html">
                 <i class="fas fa-layer-group"></i> By Section
             </a>
-            <a href="timetableperteacher.html">
+            <a href="/frontend/timetableperteacher.html">
                 <i class="fas fa-chalkboard-teacher"></i> By Teacher
             </a>
-            <a href="timetaclepergroupfixed.html">
+            <a href="/frontend/timetaclepergroupfixed.html">
                 <i class="fas fa-user-plus"></i> Enhanced Group
             </a>
 
             <div class="nav-label" style="margin-top: 12px;">Analytics</div>
-            <a href="Graph.html">
+            <a href="/frontend/Graph.html">
                 <i class="fas fa-chart-bar"></i> Algorithm Comparison
                 <span class="badge">Charts</span>
             </a>
-            <a href="ovvupaideromm.html">
+            <a href="/frontend/ovvupaideromm.html">
                 <i class="fas fa-thermometer-half"></i> Room Occupancy
                 <span class="badge">Heatmap</span>
             </a>
@@ -583,7 +583,7 @@
 
         <!-- Cards Grid -->
         <div class="cards-grid">
-            <a href="timetablepergroup.html" class="dashboard-card">
+            <a href="/frontend/timetablepergroup.html" class="dashboard-card">
                 <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
                 <div class="card-icon blue"><i class="fas fa-users"></i></div>
                 <div class="card-title">Timetable by Group</div>
@@ -591,7 +591,7 @@
                 <span class="card-tag">Interactive Table</span>
             </a>
 
-            <a href="timetablepersection.html" class="dashboard-card">
+            <a href="/frontend/timetablepersection.html" class="dashboard-card">
                 <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
                 <div class="card-icon gold"><i class="fas fa-layer-group"></i></div>
                 <div class="card-title">Timetable by Section</div>
@@ -599,7 +599,7 @@
                 <span class="card-tag">Full Overview</span>
             </a>
 
-            <a href="timetableperteacher.html" class="dashboard-card">
+            <a href="/frontend/timetableperteacher.html" class="dashboard-card">
                 <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
                 <div class="card-icon green"><i class="fas fa-chalkboard-teacher"></i></div>
                 <div class="card-title">Timetable by Teacher</div>
@@ -607,7 +607,7 @@
                 <span class="card-tag">Teacher View</span>
             </a>
 
-            <a href="timetaclepergroupfixed.html" class="dashboard-card">
+            <a href="/frontend/timetaclepergroupfixed.html" class="dashboard-card">
                 <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
                 <div class="card-icon indigo"><i class="fas fa-user-plus"></i></div>
                 <div class="card-title">Enhanced Group View</div>
@@ -615,7 +615,7 @@
                 <span class="card-tag">Full Schedule</span>
             </a>
 
-            <a href="Graph.html" class="dashboard-card">
+            <a href="/frontend/Graph.html" class="dashboard-card">
                 <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
                 <div class="card-icon purple"><i class="fas fa-chart-bar"></i></div>
                 <div class="card-title">Algorithm Comparison</div>
@@ -623,7 +623,7 @@
                 <span class="card-tag">Charts &amp; Analytics</span>
             </a>
 
-            <a href="ovvupaideromm.html" class="dashboard-card">
+            <a href="/frontend/ovvupaideromm.html" class="dashboard-card">
                 <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
                 <div class="card-icon pink"><i class="fas fa-thermometer-half"></i></div>
                 <div class="card-title">Room Occupancy Heatmap</div>
@@ -681,7 +681,7 @@
         async function loadStats() {
             try {
                 // Use only ONE file to show the total sessions per schedule (459)
-                const cspResp = await fetch('../output/schedule_output.json');
+                const cspResp = await fetch('/output/schedule_output.json');
                 const cspData = await cspResp.json();
 
                 const allData = cspData;
