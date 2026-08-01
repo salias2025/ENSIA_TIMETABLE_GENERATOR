@@ -149,9 +149,9 @@
 
     async function loadData() {
         const [csp, sa, hc] = await Promise.all([
-            fetch('schedule_output.json').then(r => r.json()),
-            fetch('schedule_sa_output.json').then(r => r.json()),
-            fetch('hc_schedule_output.json').then(r => r.json())
+            fetch('../output/schedule_output.json').then(r => r.json()),
+            fetch('../output/schedule_sa_output.json').then(r => r.json()),
+            fetch('../output/hc_schedule_output.json').then(r => r.json())
         ]);
         cspData = csp; saData = sa; hcData = hc;
         renderAll();

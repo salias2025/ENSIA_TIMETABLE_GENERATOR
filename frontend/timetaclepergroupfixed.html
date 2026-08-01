@@ -89,10 +89,10 @@
     async function loadData() {
         try {
             const [cspResp, saResp, hcResp] = await Promise.all([
-                fetch('schedule_output.json'),
-                fetch('schedule_sa_output.json'),
-                fetch('hc_schedule_output.json')
-            ]);
+   fetch('../output/schedule_output.json'),
+fetch('../output/schedule_sa_output.json'),
+fetch('../output/hc_schedule_output.json')
+]);
             cspData = await cspResp.json();
             saData = await saResp.json();
             hcData = await hcResp.json();
