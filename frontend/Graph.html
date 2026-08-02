@@ -109,6 +109,22 @@
             font-weight: 600;
             color: #475569;
         }
+        .empty-note {
+            padding: 40px 20px;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+        .winner-note {
+            margin-top: 16px;
+            background: #ecfdf5;
+            border: 1px solid #a7f3d0;
+            border-radius: 12px;
+            padding: 12px 16px;
+            font-size: 0.85rem;
+            color: #065f46;
+        }
     </style>
 </head>
 <body>
@@ -141,7 +157,31 @@
             </table>
         </div>
     </div>
-    <div class="footer">📌 Comparison based on schedule_output.json, schedule_sa_output.json, and hc_schedule_output.json</div>
+
+    <div class="chart-row">
+        <div class="chart-card" id="saConvergenceCard">
+            <h3>🌡️ SA Cost Convergence</h3>
+            <canvas id="saConvergenceChart"></canvas>
+        </div>
+        <div class="chart-card" id="hcConvergenceCard">
+            <h3>🧗 HC Cost Convergence</h3>
+            <canvas id="hcConvergenceChart"></canvas>
+        </div>
+    </div>
+
+    <div class="chart-row">
+        <div class="chart-card" id="breakdownCard">
+            <h3>🧩 Soft Cost by Component</h3>
+            <canvas id="breakdownChart"></canvas>
+        </div>
+        <div class="chart-card" id="totalCostCard">
+            <h3>🏆 Total Soft Cost</h3>
+            <canvas id="totalCostChart"></canvas>
+            <div id="winnerNote"></div>
+        </div>
+    </div>
+
+    <div class="footer">📌 Comparison based on schedule_output.json, schedule_sa_output.json, hc_schedule_output.json and algorithm_metrics.json</div>
 </div>
 
 <script>
@@ -155,6 +195,7 @@
         ]);
         cspData = csp; saData = sa; hcData = hc;
         renderAll();
+        loadMetrics();
     }
 
     function countByType(data) {
@@ -260,6 +301,102 @@
             },
             options: { responsive: true, maintainAspectRatio: true, plugins: { legend: { position: 'top' } } }
         });
+    }
+
+    function showEmpty(cardId, message) {
+        document.getElementById(cardId).querySelector('canvas')?.remove();
+        document.getElementById(cardId).insertAdjacentHTML('beforeend', `<div class="empty-note">${message}</div>`);
+    }
+
+    async function loadMetrics() {
+        let metrics;
+        try {
+            const r = await fetch('../output/algorithm_metrics.json');
+            if (!r.ok) throw new Error('missing');
+            metrics = await r.json();
+        } catch (err) {
+            const msg = '⚠️ algorithm_metrics.json not found in output/ — export it from the notebook to see convergence & cost-breakdown charts.';
+            showEmpty('saConvergenceCard', msg);
+            showEmpty('hcConvergenceCard', msg);
+            showEmpty('breakdownCard', msg);
+            showEmpty('totalCostCard', msg);
+            return;
+        }
+
+        // SA convergence
+        if (metrics.sa?.cost_history?.length) {
+            new Chart(document.getElementById('saConvergenceChart'), {
+                type: 'line',
+                data: {
+                    labels: metrics.sa.cost_history.map(h => h[0]),
+                    datasets: [{
+                        label: 'Soft Cost', data: metrics.sa.cost_history.map(h => h[1]),
+                        borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.15)',
+                        fill: true, tension: 0.25, pointRadius: 0, borderWidth: 2
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: true, plugins: { legend: { display: false } },
+                    scales: { x: { title: { display: true, text: 'Iteration' } }, y: { title: { display: true, text: 'Soft Cost' } } } }
+            });
+        } else {
+            showEmpty('saConvergenceCard', 'No SA cost history in algorithm_metrics.json.');
+        }
+
+        // HC convergence
+        if (metrics.hc?.cost_history?.length) {
+            new Chart(document.getElementById('hcConvergenceChart'), {
+                type: 'line',
+                data: {
+                    labels: metrics.hc.cost_history.map(h => h[0]),
+                    datasets: [{
+                        label: 'Best Cost', data: metrics.hc.cost_history.map(h => h[1]),
+                        borderColor: '#9B59B6', backgroundColor: 'rgba(155,89,182,0.15)',
+                        fill: true, tension: 0.25, pointRadius: 3, borderWidth: 2
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: true, plugins: { legend: { display: false } },
+                    scales: { x: { title: { display: true, text: 'Restart' } }, y: { title: { display: true, text: 'Best Cost' } } } }
+            });
+        } else {
+            showEmpty('hcConvergenceCard', 'No HC cost history in algorithm_metrics.json.');
+        }
+
+        // Cost breakdown + total
+        if (metrics.csp && metrics.sa && metrics.hc) {
+            const bd_csp = metrics.csp.cost_breakdown, bd_sa = metrics.sa.cost_breakdown, bd_hc = metrics.hc.cost_breakdown;
+            const components = Object.keys(bd_csp).filter(k => k !== 'total');
+
+            new Chart(document.getElementById('breakdownChart'), {
+                type: 'bar',
+                data: {
+                    labels: components.map(c => c.replace(/_/g, ' ')),
+                    datasets: [
+                        { label: 'CSP', data: components.map(c => bd_csp[c]), backgroundColor: '#3b82f6' },
+                        { label: 'SA', data: components.map(c => bd_sa[c]), backgroundColor: '#f59e0b' },
+                        { label: 'HC', data: components.map(c => bd_hc[c]), backgroundColor: '#10b981' }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: true, indexAxis: 'y', plugins: { legend: { position: 'top' } } }
+            });
+
+            const totals = [bd_csp.total, bd_sa.total, bd_hc.total];
+            const labels = ['CSP', 'SA', 'HC'];
+            const colors = ['#3b82f6', '#f59e0b', '#10b981'];
+            const best = Math.min(...totals);
+            const bestIdx = totals.indexOf(best);
+
+            new Chart(document.getElementById('totalCostChart'), {
+                type: 'bar',
+                data: { labels, datasets: [{ data: totals, backgroundColor: colors }] },
+                options: { responsive: true, maintainAspectRatio: true, plugins: { legend: { display: false } } }
+            });
+
+            document.getElementById('winnerNote').innerHTML =
+                `<div class="winner-note">🏆 Best method by total soft cost: <strong>${labels[bestIdx]}</strong> (${best.toFixed(1)}) — CSP baseline was ${totals[0].toFixed(1)}</div>`;
+        } else {
+            showEmpty('breakdownCard', 'No cost breakdown in algorithm_metrics.json.');
+            showEmpty('totalCostCard', 'No cost breakdown in algorithm_metrics.json.');
+        }
     }
     
     loadData();
